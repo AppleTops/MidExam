@@ -1,0 +1,489 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #F1CF54;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  z-index: 1;
+}
+.footer {
+  background-color: #F1CF54;
+  padding: 10px 10px 0px 10px;
+  width: 100%;
+  height: 40px;
+  margin-left: -10px;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+  margin-top: -175px;
+  width: 50px;
+  height: 50px;
+  scale:.1;
+  z-index: 1;
+  position: fixed;
+}
+.button1 {
+  text-transform: uppercase;
+  background-color: #e7c23c;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 18px;
+  color: white;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-decoration: none;
+}
+
+.button1:focus, .button1:hover {
+  color: white;
+}
+
+.button1:focus:after,
+.button1:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.button1:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+/* Action and Solution CSS */
+.background1 {
+    height: 1000px;
+    background-image: url('talk.jpg');
+    width: auto;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.background2 {
+  height: 1000px;
+  background-image: url('laptop.jpg');
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.background3 {
+  height: 1000px;
+  background-image: url('unicef.jpg');
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.background4 {
+  height: 1000px;
+  background-image: url('numba4.webp');
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.background5 {
+  height: 1000px;
+  background-image: url('harvardstudent.jpg');
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.background6 {
+  height: 1000px;
+  background-image: url('paper\ pile.jpg');
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+span.number4 {
+  font-size: 750px;
+  position: relative;
+  top: -155px;
+  right: -30px;
+}
+.para4 {
+    text-align: justify;
+    width: 900px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -50px;
+    color: black !important; 
+}
+.paralink {
+  color: black !important;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.titlepara4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: -810px;
+  text-align: center;
+}
+.content {
+    height: 70%;
+    width: 85%;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+}
+span.number {
+  font-size: 750px;
+  position: relative;
+  top: -70px;
+}
+span.number2 {
+  font-size: 750px;
+  position: relative;
+  top: -70px;
+  right: -30px;
+}
+span.number3 {
+  font-size: 750px;
+  position: relative;
+  top: -70px;
+  right: -30px;
+}
+.titlepara {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: -810px;
+  margin-left: 480px;
+}
+.para {
+    text-align: justify;
+    width: 500px;
+    margin-left: 480px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -50px;
+}
+
+
+/* Home CSS */
+.homebg {
+    background-image: url('num1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 1080px;
+    width: auto;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -70px;
+}
+.homebg2 {
+  background-image: url('black\ and\ white.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 1080px;
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -70px;
+} 
+.homebg3 {
+  background-image: url('raise\ your\ hands.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 1080px;
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -70px;
+}  
+.homecontent {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 70px;
+    color: rgb(50, 49, 49);
+    text-align: justify;
+    position: relative;
+    bottom: -330px;
+    word-spacing: 11px;
+  }
+  .homecontent2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+      font-size: 70px;
+      color: rgb(50, 49, 49);
+      text-align: justify;
+      position: relative;
+      bottom: -380px;
+      word-spacing: 5px;
+    }
+    .homecontent3 {
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        font-size: 70px;
+        color: rgb(50, 49, 49);
+        text-align: justify;
+        position: relative;
+        bottom: -350px;
+        word-spacing: 5px;
+      }
+.homepara {
+  margin-left: 785px;
+  width: 695px;
+  font-size: 20px;
+  margin-top: -50px;
+}
+.hometitle {
+  font-weight: bold;
+  margin-left: 780px;
+  margin-top: 70px;
+}
+.homepara2 {
+  margin-left: 40px;
+  width: 695px;
+  font-size: 20px;
+  margin-top: -50px;
+}
+.hometitle2 {
+  font-weight: bold;
+  margin-left: 35px;
+  margin-top: 70px;
+}
+.homepara3 {
+  margin-left: 20px;
+  width: 695px;
+  font-size: 20px;
+  margin-top: -50px;
+}
+.hometitle3 {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+marquee {
+  z-index: 1;
+}
+.borderstats {
+  border: 2px solid #d3b547;
+  background-color: rgba(211, 181, 71, 1);
+}
+
+
+/* Gallery CSS */
+.layoutbg {
+  background-image: url('gallery\ bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.gallerybg {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 1000px;
+  margin-top: 70px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -70px;
+}
+.gallerybg2 {
+  height: 500px;
+  margin-top: 70px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.gallerycontent7 {
+  background-image: url('gallery1.jpg');
+  height: 350px;
+  width: 470px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+  margin: auto;
+}
+.gallerycontent1 {
+  background-image: url('gallery1.jpg');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+}
+.galtxt {
+  margin-top: 350px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gallerycontent2 {
+  background-image: url('gallery2.jpg');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+}
+.gallerycontent3 {
+  background-image: url('gallery3.png');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+}
+.gallerycontent4 {
+  background-image: url('gallery4.png');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+}
+.gallerycontent5 {
+  background-image: url('gapiyong\ ko\ tas\ si\ don\ ga\ smile.PNG');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+}
+.gallerycontent6 {
+  background-image: url('gallery6.png');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 15%;
+  border: 3px solid white;
+}
+
+
+
+/* About us CSS */
+
+.aboutbg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  width: auto;
+  height: 600px;
+  margin-top: -50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-image: url('num1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.aboutcontent {
+  position: relative;
+  bottom: -30px;
+  margin: 20px;
+  width: auto;
+  height: 430px;
+  background-color: #d3b547;
+  border: 5px solid #d3b547;
+  border-radius:15% ;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.abouttext {
+  color: white;
+}
+.pfp {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25%;
+  margin-top: 30px;
+}
+.titlesangaboutus {
+  color: white;
+  margin-top: 60px; 
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.role {
+  font-size: 14px;
+  position: relative;
+  top: -10px;
+  text-align: justify;
+  text-align: center;
+}
